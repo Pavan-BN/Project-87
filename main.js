@@ -41,7 +41,7 @@ console.log(keyPressed);
 	}
 	if(keyPressed == '71')
 	{
-		block_x = 200;
+		player_x = 200;
 		// upload green ranger
 		new_image('gr.png');
 		console.log("g")
@@ -49,21 +49,21 @@ console.log(keyPressed);
 	
 	if(keyPressed == '89')
 	{
-		block_x =350;
+		player_x =350;
 		// upload yellow ranger
 		new_image('yr.png');
 		console.log("y");
 	}
 	if(keyPressed == '80')
 	{
-		block_x = 600;
+		player_x = 600;
 		// upload pink ranger
         new_image('pr.png');
 		console.log("p");
 	}
 	if(keyPressed == '66')
 	{
-		block_x = 700;
+		player_x = 700;
 	// upload blue ranger
 	new_image('br.png');
 	console.log("b");
